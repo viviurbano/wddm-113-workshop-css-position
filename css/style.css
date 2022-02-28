@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Patrick+Hand&family=Rye&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #152a48;
+  height: 100vh;
+}
+
+header {
+  color: #fff;
+}
+
+h1 {
+  font-family: Rye, Georgia, serif;
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+h1 span {
+  font-family: Dancing Script;
+  color: red;
+  text-transform: lowercase;
+}
+
+h2,
+h3,
+h4 {
+  font-family: Patrick Hand;
+  color: #e8234d;
+  font-size: 38px;
+}
+
+h3 {
+  background-color: #006f74;
+  padding: 10px;
+  transform: skew(-15deg);
+  color: #eee;
+}
+
+h4 {
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  display: inline-block;
+}
+
+h4 span {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 32px;
+  align-self: stretch;
+}
+
+#fm {
+  font-family: Dancing Script;
+  align-self: flex-start;
+  text-transform: lowercase;
+}
+
+button {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  background-color: #2b4e80;
+  color: #fafafa;
+  font-family: sans-serif;
+  font-size: 32px;
+}
+
+button:active,
+button:visited {
+  background-color: #e8234d;
+}
+
+.container-heading {
+  position: absolute;
+  left: calc(50% - 17px);
+  top: 25vh;
+  transform: rotate(-9deg) translate(-50%);
+  text-align: center;
+
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.h3 {
+  display: inline-block;
+  align-self: center;
+}
